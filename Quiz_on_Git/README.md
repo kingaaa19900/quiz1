@@ -11,7 +11,7 @@ After you initialize a new Git repository and create a file named ``my_file.txt`
 
 - [ ] git status
 - [ ] git add .
-- [ ] git commit -m "my_file.txt is added"
+- [ x] git commit -m "my_file.txt is added"
 - [ ] git add my_file.txt
 
 Question 2
@@ -28,7 +28,7 @@ Say you have three changed files (``README.md``, ``my_code.py`` and ``my_page.ht
     1. git add my_page.html
     2. git commit -m "my commit message"
 
-- [ ] execute the following commands:
+- [x ] execute the following commands:
 
     1. git add my_page.html
     2. git commit -m "added the file my_page.html"
@@ -40,7 +40,7 @@ Which command should you use to initialize a new Git repository?
 
 - [ ] git bash
 - [ ] git install
-- [ ] git init
+- [x ] git init
 - [ ] git start
 
 Question 4
@@ -49,7 +49,7 @@ Question 4
 Which file can you configure to ensure that certain file types are never committed to the local Git repository?
 
 - [ ] ignore.git
-- [ ] .gitignore
+- [x ] .gitignore
 - [ ] gitignore.txt
 - [ ] git.ignore
 
@@ -60,7 +60,7 @@ When you run the command ``git branch debugging``, the following will happen:
 
 - [ ] The ``HEAD`` will point to the newly created branch named ``debugging``
 - [ ] Create a new branch named ``debugging`` and you'll see the message: ``Switched to branch 'debugging'``
-- [ ] Create a new branch named ``debugging`` and ``HEAD`` will stay pointing at ``master``   
+- [x ] Create a new branch named ``debugging`` and ``HEAD`` will stay pointing at ``master``   
 - [ ] None of the above
 
 
@@ -72,7 +72,7 @@ Consider you start with an **empty** directory and you initialize a git reposito
 
 The commits C<sub>1</sub>, C<sub>2</sub>, ... are numbered in sequence, which means that the commit C<sub>1</sub> came before the commit C<sub>2</sub> and the commit C<sub>3</sub> before C<sub>4</sub>. The commands that were performed to get the to this **exact history** are the following:
 
-- [ ] After ``git init`` and the first commit C<sub>1</sub>:
+- [x ] After ``git init`` and the first commit C<sub>1</sub>:
 
       1. git checkout -b debugging
       2. modify  and commit
@@ -131,6 +131,7 @@ You have three files in your working directory: `.gitignore`, `A.txt`, `B.txt` a
 3. git push --set-upstream origin master
 
 Do you think that all the files will be pushed to the remote? Explain why.
+no since git add * did not tKE .GITIGNORE because itt is hidden.
 
 Question 8
 ----------
@@ -146,6 +147,7 @@ a---b---c---d  branch 'master' (refers to commit 'd')
 
 Where will the HEAD point if we run the following command:
 ``git checkout v2.0``
+branch b 
 
 Question 9:
 ----------
